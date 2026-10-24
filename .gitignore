@@ -1,0 +1,19 @@
+# python stuff
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# datasets and models get downloaded / created when you run the scripts
+data/
+imdb.csv
+prices.csv
+*.pt
+
+# plots the scripts make
+*.png
+!images/*.png
+
+# streamlit agent skill links
+.agents/
+.claude/
